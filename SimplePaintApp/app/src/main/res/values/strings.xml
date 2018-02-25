@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Just Paint</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_paint">PaintActivity</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_save">Save</string>
+    <string name="action_toggle_menu">Toggle Canvas Menu</string>
+    <string name="about_title">About</string>
+    <string name="about_message">This is a simple paint app developed by Varun Ramachandran.</string>
+    <string name="ok">OK</string>
+    <string name="saved">saved</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear</string>
+    <string name="save">Save</string>
+    <string name="exit">Exit</string>
+    <string name="painting">Keep On Painting</string>
+    <string name="information">Information</string>
+    <string name="about">About</string>
+    <string name="listview_hint">There is no saved artwork.   Press ‘+’ button to create a new artwork.</string>
+    <string name="delete">Delete</string>
+</resources>

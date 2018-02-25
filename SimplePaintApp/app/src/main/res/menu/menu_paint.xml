@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.varamach.simplepaintapp.controller.PaintActivity">
+    <item
+        android:id="@+id/action_undo"
+        android:orderInCategory="100"   
+        android:title="@string/action_undo"
+        android:icon="@drawable/ic_action_undo"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_clear"
+        android:orderInCategory="100"
+        android:title="@string/action_clear"
+        android:icon="@drawable/ic_action_clear"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_save"
+        android:orderInCategory="100"
+        android:title="@string/action_save"
+        android:icon="@drawable/ic_action_check_2"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_toggle_menu"
+        android:orderInCategory="100"
+        android:title="@string/action_toggle_menu"
+        app:showAsAction="never" />
+</menu>

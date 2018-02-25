@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="400dp">
+    <com.example.varamach.simplepaintapp.view.ColorSeekView
+        android:id="@+id/color_seekbar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="80dp"
+        android:paddingBottom="80dp"
+        android:max="100"
+        android:progress="50"/>
+    <ImageButton
+        android:id="@+id/seekbar_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="bottom|center"
+        android:src="@drawable/ic_action_check_circle"
+        android:contentDescription="@string/ok" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="400dp">
+
+    <ImageView
+        android:id="@+id/size_picker_image"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_margin="1dp"
+        android:layout_gravity="top|center"/>
+    <SeekBar
+        android:id="@+id/size_picker_seek"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_margin="1dp"
+        android:max="100"
+        android:progress="50"/>
+    <ImageButton
+        android:id="@+id/size_picker_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="1dp"
+        android:layout_gravity="bottom|center"
+        android:src="@drawable/ic_action_check_circle"
+        android:contentDescription="@string/ok" />
+</LinearLayout>
