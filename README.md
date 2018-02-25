@@ -38,3 +38,6 @@ An Android application that is a basic drawing program.
 ## Paper Prototyping
 <img src="./refimages/paperprototype.jpg" width="532" height="400"> 
 
+
+## Entity Design
+
