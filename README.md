@@ -40,4 +40,4 @@ An Android application that is a basic drawing program.
 
 
 ## Initial Design
-<img src="./refimages/initial_design.jpg" width="532" height="400"> 
+<img src="./refimages/initial_design.jpg" width="732" height="500"> 
