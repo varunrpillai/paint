@@ -39,5 +39,5 @@ An Android application that is a basic drawing program.
 <img src="./refimages/paperprototype.jpg" width="532" height="400"> 
 
 
-## Entity Design
-
+## Initial Design
+<img src="./refimages/initial_design.jpg" width="532" height="400"> 
