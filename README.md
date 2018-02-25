@@ -80,6 +80,6 @@ An Android application that is a basic drawing program.
 
 
 ## Known Issues
-1) writing of the model is in an asynchronous thread but reading is not yet.
+1) writing the app data into filesystem is in an asynchronous thread but reading is not yet.
 2) Color picker gradient values are adjusted (not working with calculated values).
 3) If painting is saved with same name, warning is not displayed currently.
