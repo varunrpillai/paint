@@ -45,7 +45,7 @@ An Android application that is a basic drawing program.
        e) undo the last change
       Lower tab has most important action items:
 	a) color picker will be 
-	   i) a floating button shows the current color.
+	   i) a floating button that shows the selected color.
 	   ii) A color picker dialog will be launched on clicking the button.
 	b) size picker will be on the left side
 	   i) A size picker dialog will be launched on clicking the button.
