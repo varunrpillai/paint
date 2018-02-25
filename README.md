@@ -36,4 +36,4 @@ An Android application that is a basic drawing program.
     
     
 ## Paper Prototyping
-[[https://github.com/varunrpillai/paint/blob/master/refimages/paperprototype.jpg|alt=paperprototype]]
+[[https://github.com/varunrpillai/paint/blob/master/refimages/paperprototype.jpg]]
