@@ -1,58 +1,58 @@
-# Paint App
+# Paint Android App
 
-An Android application that is a basic drawing program.  
-• The application should have the user select a color and enable the user to draw with their finger on the screen.  
-• The application should also have a method of clearing the drawing.  
+A basic drawing program.  
+• The application allows user to select a color and to draw with their finger on the screen.  
+• The application also allows to clear the drawing.  
 
 
 ## Competitor App Analysis - Apps from Google Play Store  
 1) Sketch App - https://play.google.com/store/apps/details?id=com.sonymobile.sketch&hl=en  
   In the upper tab:  
-    Brush size - slider  
-    Basic colors provided in addition to a color picker option.  
+    Brush size is selected by a slider. 
+    Basic colors provided for selection in addition to a color picker option.  
     Eraser  
   In the lower tab:  
-	  Undo, Redo  
-	  On confirmation of the image, save, share and discard options.  
+	  Undo, Redo stroke options.
+	  On confirmation, user will be able to save, share and discard the artwork options.  
 	  
 2) Paint App - https://play.google.com/store/apps/details?id=nanashi.studios.paint&hl=en  
-	In the upper tab:   
-    save, clear, undo.  
-	In the overflow menu:  
-    Load, Share, Exit  
-	In the lower tab:   
-    color  
-	In the right tab:   
-    brush size.  
+   In the upper tab:   
+    save, clear, undo options.  
+   In the overflow menu:  
+    Load, Share, Exit options.
+   In the lower tab:   
+    color picker option.
+   In the right tab:   
+    brush size picker option.
   
-3) 	ibisPaintX App  - https://play.google.com/store/apps/details?id=jp.ne.ibis.ibispaintx.app&hl=en  
-	In the home page: show saved images and provides + icon to create Image.  
+3) ibisPaintX App  - https://play.google.com/store/apps/details?id=jp.ne.ibis.ibispaintx.app&hl=en  
+  In the home page: show saved images and provides + icon to create Image.  
   In the lower tab:   
-    In the paint view, opacity and brush size are slider  
+    In the paint view, opacity and brush size are slider.proble
     color selection is above these two.  
   Upper tab:   
-    undo, redo.  
+    undo, redo options. 
     
     
-  ###  Evaluation:
-    1) Have a list of saved items to continue editing.
-    2) In the paint view, provide options to 
-      Upper tab:
+  ###  Minimum Viable Product(MVP) based on the analysis:
+    1) In the paint view, provide options to 
+      In the upper tab:
        a) save
        b) exit without saving.
        c) continue drawing.
        d) clear the current painting.
        e) undo the last change
-      Lower tab has most important action items:
+      In the Lower tab: This has the most important action items:
 	a) color picker will be 
 	   i) a floating button that shows the selected color.
 	   ii) A color picker dialog will be launched on clicking the button.
 	b) size picker will be on the left side
 	   i) A size picker dialog will be launched on clicking the button.
 	**Floating button will be hidden when user draws providing maximum canvas space.
+     2) Have a list of saved items to continue editing the art.
 
 ## Main Usercases
-1) Draw a paint and save
+1) Draw an art and save
    a) Open app
    b) Press on add button
    c) draw with defaults brush color and size.
@@ -98,6 +98,6 @@ An Android application that is a basic drawing program.
 
 
 ## Known Issues
-1) writing the app data into filesystem is in an asynchronous thread but reading is not yet.
+1) Writing the app data into filesystem is in an asynchronous operation but reading is not yet.
 2) Color picker gradient values are adjusted (not working with calculated values).
-3) If painting is saved with same name, warning is not displayed currently.
+3) If painting is saved with the same name, warning is not displayed currently.
