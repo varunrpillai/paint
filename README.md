@@ -33,6 +33,24 @@ An Android application that is a basic drawing program.
   Upper tab:   
     undo, redo.  
     
+    
+  ###  Evaluation:
+    1) Have a list of saved items to continue editing.
+    2) In the paint view, provide options to 
+      Upper tab:
+       a) save
+       b) exit without saving.
+       c) continue drawing.
+       d) clear the current painting.
+       e) undo the last change
+      Lower tab has most important action items:
+	a) color picker will be 
+	   i) a floating button shows the current color.
+	   ii) A color picker dialog will be launched on clicking the button.
+	b) size picker will be on the left side
+	   i) A size picker dialog will be launched on clicking the button.
+	**Floating button will be hidden when user draws providing maximum canvas space.
+
 ## Main Usercases
 1) Draw a paint and save
    a) Open app
