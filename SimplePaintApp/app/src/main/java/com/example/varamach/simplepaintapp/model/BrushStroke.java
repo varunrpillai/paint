@@ -1,8 +1,6 @@
 package com.example.varamach.simplepaintapp.model;
 
 import android.graphics.Path;
-import android.os.Parcel;
-import android.os.Parcelable;
 
 import java.io.Serializable;
 import java.util.LinkedList;
