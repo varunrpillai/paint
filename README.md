@@ -121,9 +121,9 @@ You can access apk at [https://github.com/varunrpillai/paint/blob/master/just_pa
 
 
 ## Credits
-Assets: 
-	https://romannurik.github.io/AndroidAssetStudio/
-	https://4vector.com/free-vector/brush-size-clip-art-116956
-StackOverFlow.com
+Assets:   
+        https://romannurik.github.io/AndroidAssetStudio/  
+        https://4vector.com/free-vector/brush-size-clip-art-116956  
+StackOverFlow.com  
 
 
