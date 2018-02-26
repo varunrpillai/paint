@@ -4,6 +4,7 @@ A basic drawing program.
 • The application allows user to select a color and to draw with their finger on the screen.  
 • The application also allows to clear the drawing.  
 
+You can access apk [[./just_paint.apk]]
 
 ## Competitor App Analysis - Apps from Google Play Store  
 1) <t>Sketch App </t>- https://play.google.com/store/apps/details?id=com.sonymobile.sketch&hl=en  
