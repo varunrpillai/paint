@@ -10,6 +10,7 @@ import android.content.pm.ActivityInfo;
 import android.content.res.ColorStateList;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.os.PersistableBundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -28,6 +29,7 @@ import com.example.varamach.simplepaintapp.model.SavedArt;
 import com.example.varamach.simplepaintapp.model.TouchScreenArt;
 import com.example.varamach.simplepaintapp.view.CanvasAreaView;
 
+import java.util.ArrayList;
 import java.util.Stack;
 
 import static android.graphics.Color.BLACK;
@@ -47,6 +49,7 @@ public class PaintActivity extends AppCompatActivity implements CanvasAreaView.C
     public static final String PREFERENCES = "paint_pref" ;
     public static final String COLOR = "color" ;
     public static final String PROGRESS = "progress" ;
+    public static final String ART_BUNDLE_ID = "art";
 
     //Model that handles the artwork
     private TouchScreenArt mArt;
@@ -76,15 +79,19 @@ public class PaintActivity extends AppCompatActivity implements CanvasAreaView.C
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        mArt = new TouchScreenArt(this);
         //Retrieve an existing artwork
         Intent intent = getIntent();
         if (intent.getExtras() != null) {
             mSavedName = intent.getExtras().getString(PAINT_NAME);
         }
-        if (mSavedName != null && !mSavedName.isEmpty()) {
+
+        if (savedInstanceState != null) {
+            mArt = (TouchScreenArt) savedInstanceState.getSerializable(ART_BUNDLE_ID);
+        } else if (mSavedName != null && !mSavedName.isEmpty()) {
+            mArt = new TouchScreenArt(this);
             mArt.retrieve(mSavedName, this);
         } else {
+            mArt = new TouchScreenArt(this);
             mSavedName =  "";
         }
 
@@ -98,6 +105,13 @@ public class PaintActivity extends AppCompatActivity implements CanvasAreaView.C
         //Important: Style property defaults to FILL and
         // setting it to stroke allows the expected result of tracing the finger.
         mPaintConfig.setStyle(Paint.Style.STROKE);
+
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState) {
+        super.onSaveInstanceState(outState, outPersistentState);
+        outState.putSerializable (ART_BUNDLE_ID, mArt);
 
     }
 
