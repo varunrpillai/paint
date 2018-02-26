@@ -80,7 +80,8 @@ public class TouchScreenArt implements Picture<BrushStroke>, Serializable {
     }
 
 
-    //TODO:Not used. Need to figure out why it cannot be read back sometimes. Seems issue with context.
+    //TODO:Not used. Need to figure out why it cannot be read back sometimes. Seems issue with context. Since
+    // it is a 2 day project, I didn't have time to complete and test it.
     private class ArtReadOperation extends AsyncTask<Object, Void, Stack<BrushStroke>> {
 
         @Override

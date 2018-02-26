@@ -34,7 +34,7 @@ public class ColorSeekView extends AppCompatSeekBar {
         float padX1 = getPaddingLeft();
 
         //TODO: expectation was x+pad1 and x2-pad2. But the gradient is not rendered as expected.
-        // Below are adjusted values.
+        // Below are adjusted values. Since it is a 2 day project, I didnt had time to complete and test it.
         LinearGradient overlay = new LinearGradient(x1, 0.0f, x2-padX1-padX2, 0.0f,
                 new int[]{0xFF000000, 0xFF0000FF, 0xFF00FF00, 0xFF00FFFF,
                         0xFFFF0000, 0xFFFF00FF, 0xFFFFFF00, 0xFFFFFFFF},

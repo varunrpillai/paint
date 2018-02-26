@@ -200,7 +200,8 @@ public class PaintActivity extends AppCompatActivity implements CanvasAreaView.C
                     setResult(Activity.RESULT_OK, resultIntent);
                     finish();
                 } else {
-                    //TODO: Not working. The dialog is getting closed without explicit dismiss.
+                    //TODO: The dialog is getting closed without explicit dismiss. Since it
+                    // is a 2 day project, I didnt had time to complete and test it.
                     input.setHint("Duplicate Art Name");
                     input.clearComposingText();
                 }

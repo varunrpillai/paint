@@ -13,7 +13,8 @@ import java.io.ObjectOutputStream;
 /**
  * Created by varamach on 2/23/18.
  * Handler that writes the serializable object to a file and reads back.
- * TODO:Save operation is done a new thread. Read operation is not.
+ * TODO:Save operation is done a new thread. Read operation is not. Since it is a 2 day project,
+ * I didn't have time to complete and test it.
  * UI needs to handle the async read operation.
  * Reused the code from https://stackoverflow.com/questions/15841997/saving-parcelable-data
  */

@@ -60,6 +60,7 @@ public class SavedArt implements Serializable {
     }
 
     //TODO:Not used. Need to figure out why it cannot be read back sometimes. Seems issue with context.
+    // Since it is a 2 day project, I didn't have time to complete and test it.
     private class ReadOperation extends AsyncTask<Context, Void, LinkedList<String>> {
 
         @Override
