@@ -28,29 +28,29 @@ You can access apk at [https://github.com/varunrpillai/paint/blob/master/just_pa
   
 3) ibisPaintX App  - https://play.google.com/store/apps/details?id=jp.ne.ibis.ibispaintx.app&hl=en  
   In the home page: show saved images and provides + icon to create Image.  
+  In the upper tab:   
+    undo, redo options. 
   In the lower tab:   
     In the paint view, opacity and brush size are slider.proble
     color selection is above these two.  
-  Upper tab:   
-    undo, redo options. 
     
     
   ###  Minimum Viable Product(MVP) based on the analysis:
-    1) In the paint view, provide options to 
-      In the upper tab:
+  1) In the paint view, provide options to 
+     In the upper tab:
        a) save
        b) exit without saving.
        c) continue drawing.
        d) clear the current painting.
        e) undo the last change
-      In the Lower tab: This has the most important action items:
+     In the Lower tab: This has the most important action items:
 	a) color picker will be 
 	   i) a floating button that shows the selected color.
 	   ii) A color picker dialog will be launched on clicking the button.
 	b) size picker will be on the left side
 	   i) A size picker dialog will be launched on clicking the button.
 	Floating button will be hidden when user draws providing maximum canvas space.
-     2) Have a list of saved items to continue editing the art.
+  2) Have a list of saved items to continue editing the art.
 
 ## Main Usercases
 1) Draw an art and save  
@@ -59,9 +59,9 @@ You can access apk at [https://github.com/varunrpillai/paint/blob/master/just_pa
    c) draw with defaults brush color and size.  
    d) click on checkmark to save.  
    e) enter the name and click save.  
-   Verify: If the name appears in the main list view.  
+   Verify: See if the name appears in the main list view.  
    f) click on the list item in main list view.  
-   Verify: The previous painting reappears and able to edit it.  
+   Verify: See if the previous painting reappears and able to edit it.  
       
  2) Pick color  
    a) Open app  
@@ -88,7 +88,7 @@ You can access apk at [https://github.com/varunrpillai/paint/blob/master/just_pa
    d) click on clear (cross icon) on the upper toolbar.  
    e) dialog appears to clear the drawing.  
    f) click on clear.  
-   Verify: See if the painting clears.  
+   Verify: See if the painting gets cleared.  
     
 ## Paper Prototyping
 <img src="./refimages/paperprototype.jpg" width="532" height="400"> 
@@ -99,14 +99,14 @@ You can access apk at [https://github.com/varunrpillai/paint/blob/master/just_pa
 
 
 ## Known Issues
-1) Writing the app data into filesystem is in an asynchronous operation but reading is not yet.  
+1) Currently, writing the app data into filesystem is an asynchronous operation but reading is not yet.  
 2) Color picker gradient values are adjusted (not working with calculated values).  
 3) Rotation is supported in the main activity. Rotation is restricted to portrait mode in paint view.   
-   The canvas needs to be resized to support landscape. Some of the popular paint app supports only
-   portrait mode.  
-3) If painting is saved with the existing name, warning is not displayed currently.  
-4) Added only one junit test case(to setup the infrastructure). Add more unit tests to ensure all cases are handled.  
-5) Can work on additional features for achieving feature parity with competitor apps.  
+   The canvas needs to be resized to support landscape and needs some additional time. However, some of the popular paint
+   app supports portrait mode only.  
+3) If the painting is saved with the existing name, warning is not displayed currently.  
+4) Added only one junit test case(to setup the infrastructure). Need to add more unit tests to ensure all cases are handled.  
+5) We can add additional features for achieving feature parity with competitor apps.  
 6) Tested on OPPO A57. Need to test on more devices to address any fragmentation issues.  
 
 ## App Screenshots
