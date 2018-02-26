@@ -53,43 +53,43 @@ You can access apk at [https://github.com/varunrpillai/paint/blob/master/just_pa
      2) Have a list of saved items to continue editing the art.
 
 ## Main Usercases
-1) Draw an art and save
-   a) Open app
-   b) Press on add button
-   c) draw with defaults brush color and size.
-   d) click on checkmark to save.
-   e) enter the name and click save.
-   Verify: If the name appears in the main list view.
-   f) click on the list item in main list view.
-   Verify: The previous painting reappears and able to edit it.
+1) Draw an art and save  
+   a) Open app  
+   b) Press on add button  
+   c) draw with defaults brush color and size.  
+   d) click on checkmark to save.  
+   e) enter the name and click save.  
+   Verify: If the name appears in the main list view.  
+   f) click on the list item in main list view.  
+   Verify: The previous painting reappears and able to edit it.  
+      
+ 2) Pick color  
+   a) Open app  
+   b) Press on add button  
+   c) draw with defaults brush color and size.  
+   d) click on color picker on the right side.  
+   e) drag and select the color.  
+   f) click checkmark to select.  
+   Verify: See if the floating button color changes and further painting reflects the same color.  
     
- 2) Pick color
-   a) Open app
-   b) Press on add button
-   c) draw with defaults brush color and size.
-   d) click on color picker on the right side.
-   e) drag and select the color.
-   f) click checkmark to select.
-   Verify: See if the floating button color changes and further painting reflects the same color.
-  
- 3) Pick size 
-   a) Open app
-   b) Press on add button
-   c) draw with defaults brush color and size.
-   d) click on size picker on the left side.
-   e) drag and select the size.
-   f) click checkmark to select.
-   Verify: See if the further painting reflects the picked size.
-   
- 4) Clear drawing
-   a) Open app
-   b) Press on add button
-   c) draw with defaults brush color and size.
-   d) click on clear (cross icon) on the upper toolbar.
-   e) dialog appears to clear the drawing.
-   f) click on clear.
-   Verify: See if the painting clears.
-   
+ 3) Pick size   
+   a) Open app  
+   b) Press on add button  
+   c) draw with defaults brush color and size.  
+   d) click on size picker on the left side.  
+   e) drag and select the size.  
+   f) click checkmark to select.  
+   Verify: See if the further painting reflects the picked size.  
+     
+ 4) Clear drawing  
+   a) Open app  
+   b) Press on add button  
+   c) draw with defaults brush color and size.   
+   d) click on clear (cross icon) on the upper toolbar.  
+   e) dialog appears to clear the drawing.  
+   f) click on clear.  
+   Verify: See if the painting clears.  
+    
 ## Paper Prototyping
 <img src="./refimages/paperprototype.jpg" width="532" height="400"> 
 
@@ -99,13 +99,24 @@ You can access apk at [https://github.com/varunrpillai/paint/blob/master/just_pa
 
 
 ## Known Issues
-1) Writing the app data into filesystem is in an asynchronous operation but reading is not yet.
-2) Color picker gradient values are adjusted (not working with calculated values).
-3) Rotation is supported in the main activity. Rotation is restricted to portrait mode in paint view. 
+1) Writing the app data into filesystem is in an asynchronous operation but reading is not yet.  
+2) Color picker gradient values are adjusted (not working with calculated values).  
+3) Rotation is supported in the main activity. Rotation is restricted to portrait mode in paint view.   
    The canvas needs to be resized to support landscape. Some of the popular paint app supports only
-   portrait mode.
-3) If painting is saved with the existing name, warning is not displayed currently.
-4) Added only one junit test case(to setup the infrastructure). Add more unit tests to ensure all cases are handled.
-5) Can work on additional features for achieving feature parity with competitor apps.
-6) Tested on OPPO A57. Need to test on more devices to address any fragmentation issues.
+   portrait mode.  
+3) If painting is saved with the existing name, warning is not displayed currently.  
+4) Added only one junit test case(to setup the infrastructure). Add more unit tests to ensure all cases are handled.  
+5) Can work on additional features for achieving feature parity with competitor apps.  
+6) Tested on OPPO A57. Need to test on more devices to address any fragmentation issues.  
+
+## App Screenshots
+### Paint View
+<img src="./refimages/painting.png" width="400" height="700"> 
+
+## Color Picker
+<img src="./refimages/color_selection.png" width="400" height="700"> 
+
+### Saved List
+<img src="./refimages/saved_arts.png" width="400" height="700"> 
+
 
