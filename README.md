@@ -120,3 +120,10 @@ You can access apk at [https://github.com/varunrpillai/paint/blob/master/just_pa
 <img src="./refimages/saved_arts.png" width="400" height="700"> 
 
 
+## Credits
+Assets: 
+	https://romannurik.github.io/AndroidAssetStudio/
+	https://4vector.com/free-vector/brush-size-clip-art-116956
+StackOverFlow.com
+
+
