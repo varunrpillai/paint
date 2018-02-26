@@ -49,7 +49,7 @@ You can access apk at [https://github.com/varunrpillai/paint/blob/master/just_pa
 	   ii) A color picker dialog will be launched on clicking the button.
 	b) size picker will be on the left side
 	   i) A size picker dialog will be launched on clicking the button.
-	**Floating button will be hidden when user draws providing maximum canvas space.
+	Floating button will be hidden when user draws providing maximum canvas space.
      2) Have a list of saved items to continue editing the art.
 
 ## Main Usercases
