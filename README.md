@@ -107,7 +107,8 @@ You can access apk at [https://github.com/varunrpillai/paint/blob/master/just_pa
 3) If the painting is saved with the existing name, warning is not displayed currently.  
 4) Added only one junit test case(to setup the infrastructure). Need to add more unit tests to ensure all cases are handled.  
 5) We can add additional features for achieving feature parity with competitor apps.  
-6) Tested on OPPO A57. Need to test on more devices to address any fragmentation issues.  
+6) Tested on OPPO A57. Need to test on more devices to address any fragmentation issues. 
+7) Minimize the app while drawing, the drawing is lost. Have to make the model parecelable and save it during save instance. 
 
 ## App Screenshots
 ### Paint View
