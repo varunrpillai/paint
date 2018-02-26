@@ -95,7 +95,7 @@ You can access apk at [https://github.com/varunrpillai/paint/blob/master/just_pa
 
 
 ## Initial Design
-<img src="./refimages/initial_design.jpg" width="732" height="500"> 
+<img src="./refimages/initial_design.jpg" width="900" height="500"> 
 
 
 ## Known Issues
