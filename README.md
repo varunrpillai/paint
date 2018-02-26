@@ -100,4 +100,11 @@ A basic drawing program.
 ## Known Issues
 1) Writing the app data into filesystem is in an asynchronous operation but reading is not yet.
 2) Color picker gradient values are adjusted (not working with calculated values).
-3) If painting is saved with the same name, warning is not displayed currently.
+3) Rotation is supported in the main activity. Rotation is restricted to portrait mode in paint view. 
+   The canvas needs to be resized to support landscape. Some of the popular paint app supports only
+   portrait mode.
+3) If painting is saved with the existing name, warning is not displayed currently.
+4) Added only a single junit test case(to setup the infrastructure). Add more unit tests to ensure all cases are handled.
+5) Can work on additional features for achieving feature parity with competitor apps.
+6) Tested on OPPO A57. Need to test on more devices to address any fragmentation issues.
+
