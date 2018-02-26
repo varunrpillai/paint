@@ -104,7 +104,7 @@ A basic drawing program.
    The canvas needs to be resized to support landscape. Some of the popular paint app supports only
    portrait mode.
 3) If painting is saved with the existing name, warning is not displayed currently.
-4) Added only a single junit test case(to setup the infrastructure). Add more unit tests to ensure all cases are handled.
+4) Added only one junit test case(to setup the infrastructure). Add more unit tests to ensure all cases are handled.
 5) Can work on additional features for achieving feature parity with competitor apps.
 6) Tested on OPPO A57. Need to test on more devices to address any fragmentation issues.
 
