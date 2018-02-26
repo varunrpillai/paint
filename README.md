@@ -6,7 +6,7 @@ A basic drawing program.
 
 
 ## Competitor App Analysis - Apps from Google Play Store  
-1) Sketch App - https://play.google.com/store/apps/details?id=com.sonymobile.sketch&hl=en  
+1) <t>Sketch App </t>- https://play.google.com/store/apps/details?id=com.sonymobile.sketch&hl=en  
   In the upper tab:  
     Brush size is selected by a slider. 
     Basic colors provided for selection in addition to a color picker option.  
