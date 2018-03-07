@@ -52,7 +52,7 @@ You can access apk at [https://github.com/varunrpillai/paint/blob/master/just_pa
 	Floating button will be hidden when user draws providing maximum canvas space.
   2) Have a list of saved items to continue editing the art.
 
-## Main Usercases
+## Main Usecases
 1) Draw an art and save  
    a) Open app  
    b) Press on add button  
