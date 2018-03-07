@@ -1,5 +1,5 @@
 # Paint Android App
-
+It is a self initiated 3 day hackathon project(2 day design+coding and 1 day testing + clean up + release).
 A basic drawing program.  
 • The application allows user to select a color, size and to draw with their finger on the screen.  
 • The application allows to clear the drawing.   
