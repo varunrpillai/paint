@@ -2,7 +2,7 @@
 
 A basic drawing program.  
 • The application allows user to select a color, size and to draw with their finger on the screen.  
-• The application allows to clear the drawing. 
+• The application allows to clear the drawing.   
 • The application allows to save and continue drawing later.
 
 You can access apk at [https://github.com/varunrpillai/paint/blob/master/just_paint.apk]
